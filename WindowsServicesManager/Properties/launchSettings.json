@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "WindowsServicesManager (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "WindowsServicesManager (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
