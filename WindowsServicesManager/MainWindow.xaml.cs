@@ -194,6 +194,11 @@ namespace WindowsServicesManager
             LaunchSCCommand("pause", SelectedService.ServiceName);
         }
 
+        private void SwitchTheme_Click(object sender, RoutedEventArgs e)
+        {
+            // Optionally implement theme switching, or leave empty for now
+        }
+
         private void LaunchSCCommand(string action, string serviceName)
         {
             string scCommand = $"sc {action} \"{serviceName}\"";
